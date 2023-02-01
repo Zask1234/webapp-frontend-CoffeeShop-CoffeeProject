@@ -44,13 +44,13 @@
                                     <td class="text-center"> {{ $user->email }}</td>
                                     <td class="text-center">
                                         <a href="{{ url('/users/update/' . $user->id) }}">
-                                            <button class="rounded-full bg-amber-600 p-1 hover:bg-sky-700">Update</button>
+                                            <button class="rounded-full bg-amber-400 p-1 hover:bg-sky-700">Update</button>
                                         </a>
                                         <a href="{{ url('/users/password/' . $user->id) }}">
                                             <button class="rounded-full bg-amber-500 p-1 hover:bg-sky-700">Password</button>
                                         </a>
                                         <a href="{{ url('/users/delete/' . $user->id) }}">
-                                            <button class="rounded-full bg-amber-400 p-1 hover:bg-sky-700">Delete</button>
+                                            <button class="rounded-full bg-amber-600 p-1 hover:bg-sky-700">Delete</button>
                                         </a>
                                     </td>
                                 </tr>

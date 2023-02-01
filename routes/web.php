@@ -34,8 +34,14 @@ Route::post('/users/add', [UserController::class, 'store'])
 
 Route::get('/users/update/{id}', [UserController::class, 'show'])
         ->middleware(['auth', 'verified']);
+
 Route::post('/users/update/{id}', [UserController::class, 'update'])
         ->middleware(['auth', 'verified']);
+
+Route::get('/users/delete/{id}', [UserController::class, 'delete'])
+        ->middleware(['auth', 'verified']);
+        
+
 
 
 
@@ -50,6 +56,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    
 });
 
 require __DIR__.'/auth.php';

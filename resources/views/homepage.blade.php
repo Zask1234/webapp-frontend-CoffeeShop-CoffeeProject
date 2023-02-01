@@ -8,8 +8,8 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">Welcome To!</div>
-                <div class="masthead-heading text-uppercase">Coffe Project</div>
+                <div class="masthead-subheading border-amber-900">Welcome To!</div>
+                <div class="masthead-heading text-uppercase border-amber-900">Coffe Project</div>
                 <div class="masthead-subheading">Coffe is Always a Good Idea</div>
                 <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
             </div>
@@ -50,7 +50,7 @@
             </div>
         </section>
         <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
+        <section class="page-section bg-dark" id="portfolio">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Portfolio</h2>
@@ -66,8 +66,8 @@
                                 </div>
                                 <img class="img-fluid" src="assets/img/portfolio/americano.jpg" alt="..." />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Coffee Americano</div>
+                            <div class="portfolio-caption bg-dark">
+                                <div class="portfolio-caption-heading text-white">Coffee Americano</div>
                                
                             </div>
                         </div>
@@ -81,8 +81,8 @@
                                 </div>
                                 <img class="img-fluid" src="assets/img/portfolio/ah.jpg" alt="..." />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">CAFÉ AU LAIT</div>
+                            <div class="portfolio-caption bg-dark">
+                                <div class="portfolio-caption-heading text-white">CAFÉ AU LAIT</div>
                                 
                             </div>
                         </div>
@@ -96,8 +96,8 @@
                                 </div>
                                 <img class="img-fluid" src="assets/img/portfolio/capp.jpg" alt="..." />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">CAPPUCINO</div>
+                            <div class="portfolio-caption bg-dark">
+                                <div class="portfolio-caption-heading text-white">CAPPUCINO</div>
                                 
                             </div>
                         </div>
@@ -111,8 +111,8 @@
                                 </div>
                                 <img class="img-fluid" src="assets/img/portfolio/ice.jpg" alt="..." />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">ICE COFFEE</div>
+                            <div class="portfolio-caption bg-dark">
+                                <div class="portfolio-caption-heading text-white">ICE COFFEE</div>
                                 
                             </div>
                         </div>
@@ -126,8 +126,8 @@
                                 </div>
                                 <img class="img-fluid" src="assets/img/portfolio/macchiato.jpg" alt="..." />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">MACCHIATO COFFEE</div>
+                            <div class="portfolio-caption bg-dark">
+                                <div class="portfolio-caption-heading text-white">MACCHIATO COFFEE</div>
                                 
                             </div>
                         </div>
@@ -141,8 +141,8 @@
                                 </div>
                                 <img class="img-fluid" src="assets/img/portfolio/mocha.jpg" alt="..." />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">MOCHA</div>
+                            <div class="portfolio-caption bg-dark">
+                                <div class="portfolio-caption-heading text-white">MOCHA</div>
                                 
                             </div>
                         </div>
@@ -290,7 +290,7 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2022</div>
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2023</div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
